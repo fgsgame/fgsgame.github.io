@@ -7,7 +7,6 @@ contract disassembler {
         var12 = (extcodesize(uint160(uint160(sload(0x77F)))) == 0);
         require(extcodesize(uint160(uint160(sload(0x77F)))));
 
-        //ISSUE:COMMENT: External call: FUNC_C05B3C5()
         var6 = var11.call(0x80,0x4,0x80,0x20);
         var6 = (var6 == 0);
         if (var6) 
@@ -40,7 +39,6 @@ contract disassembler {
 
     function settle() public return ()
     {
-        // Please refer to main() for the functionality, Function Hash: 11DA60B4 
     }
 
     function FUNC_129295A4( uint256 arg0,uint256 arg1,uint256 arg18,uint256 arg19,uint256 arg2,uint256 arg3,uint256 arg4,uint256 arg5,uint256 arg6,uint256 arg7) public return ()
@@ -60,7 +58,6 @@ contract disassembler {
         mapping_0x77D[uint160(uint160(arg0))].member_0x0 = (0x10000000000000000000000000000000000000000 | (~0xFF0000000000000000000000000000000000000000 & mapping_0x77D[uint160(uint160(arg0))].member_0x0));
         var13 = (0x3 + temp78);
 
-        //ISSUE:WARNING:Block timestamp is referred.
         sstore((0x0 + (0x3 + temp78)),(block.timestamp + sload(0x0)));
         sstore((0x1 + (0x3 + temp78)),arg2);
         if ((arg2 > 0x8AC7230489E80000)) 
@@ -233,7 +230,6 @@ label_0000102F:
         var12 = (extcodesize(uint160(uint160(sload(0x77F)))) == 0);
         require(extcodesize(uint160(uint160(sload(0x77F)))));
 
-        //ISSUE:COMMENT: External call: FUNC_C05B3C5()
         var6 = var11.call(0x80,0x4,0x80,0x20);
         var6 = (var6 == 0);
         if (var6) 
@@ -265,8 +261,7 @@ label_0000102F:
         var11 = uint160(uint160(sload(0x77F)));
         var12 = (extcodesize(uint160(uint160(sload(0x77F)))) == 0);
         require(extcodesize(uint160(uint160(sload(0x77F)))));
-
-        //ISSUE:COMMENT: External call: FUNC_C05B3C5()
+        
         var6 = var11.call(0x80,0x4,0x80,0x20);
         var6 = (var6 == 0);
         if (var6) 
@@ -330,8 +325,6 @@ label_00001288:
         var22 = uint160(sload(0x77E));
         var23 = (extcodesize(uint160(sload(0x77E))) == 0);
         require(extcodesize(uint160(sload(0x77E))));
-
-        //ISSUE:COMMENT: External call: FUNC_4EC72BB5()
         var17 = var22.call(0x1E0,0x4,0x1E0,0x100);
         var17 = (var17 == 0);
         if (var17) 
@@ -386,7 +379,6 @@ label_00001411:
         var12 = (extcodesize(uint160(uint160(sload(0x77F)))) == 0);
         require(extcodesize(uint160(uint160(sload(0x77F)))));
 
-        //ISSUE:COMMENT: External call: FUNC_C05B3C5()
         var6 = var11.call(0x80,0x4,0x80,0x20);
         var6 = (var6 == 0);
         if (var6) 
@@ -419,8 +411,6 @@ label_00001411:
         var11 = uint160(uint160(sload(0x77F)));
         var12 = (extcodesize(uint160(uint160(sload(0x77F)))) == 0);
         require(extcodesize(uint160(uint160(sload(0x77F)))));
-
-        //ISSUE:COMMENT: External call: FUNC_C05B3C5()
         var6 = var11.call(0x80,0x4,0x80,0x20);
         var6 = (var6 == 0);
         if (var6) 
@@ -453,8 +443,6 @@ label_00001411:
         var13 = uint160(uint160(sload(0x77F)));
         var14 = (extcodesize(uint160(uint160(sload(0x77F)))) == 0);
         require(extcodesize(uint160(uint160(sload(0x77F)))));
-
-        //ISSUE:COMMENT: External call: FUNC_C05B3C5()
         var8 = var13.call(0x260,0x4,0x260,0x20);
         var8 = (var8 == 0);
         if (var8) 
@@ -482,8 +470,7 @@ label_00001411:
         var12 = uint160(uint160(sload(0x77F)));
         var13 = (extcodesize(uint160(uint160(sload(0x77F)))) == 0);
         require(extcodesize(uint160(uint160(sload(0x77F)))));
-
-        //ISSUE:COMMENT: External call: FUNC_C05B3C5()
+        
         var7 = var12.call(0x80,0x4,0x80,0x20);
         var7 = (var7 == 0);
         if (var7) 
@@ -554,8 +541,6 @@ label_000017AF:
         var12 = uint160(uint160(sload(0x77F)));
         var13 = (extcodesize(uint160(uint160(sload(0x77F)))) == 0);
         require(extcodesize(uint160(uint160(sload(0x77F)))));
-
-        //ISSUE:COMMENT: External call: FUNC_C05B3C5()
         var7 = var12.call(0x80,0x4,0x80,0x20);
         var7 = (var7 == 0);
         if (var7) 
@@ -588,8 +573,6 @@ label_000017AF:
         var11 = uint160(uint160(sload(0x77F)));
         var12 = (extcodesize(uint160(uint160(sload(0x77F)))) == 0);
         require(extcodesize(uint160(uint160(sload(0x77F)))));
-
-        //ISSUE:COMMENT: External call: FUNC_C05B3C5()
         var6 = var11.call(0x80,0x4,0x80,0x20);
         var6 = (var6 == 0);
         if (var6) 
@@ -633,8 +616,6 @@ label_000017AF:
         var17 = uint160(sload(0x77E));
         var18 = (extcodesize(uint160(sload(0x77E))) == 0);
         require(extcodesize(uint160(sload(0x77E))));
-
-        //ISSUE:COMMENT: External call: FUNC_25EDBD8D(msg.sender)
         var12 = var17.call(0x280,0x24,0x280,0x20);
         var12 = (var12 == 0);
         if (var12) 
@@ -676,8 +657,6 @@ label_00001B74:
         var11 = uint160(uint160(sload(0x77F)));
         var12 = (extcodesize(uint160(uint160(sload(0x77F)))) == 0);
         require(extcodesize(uint160(uint160(sload(0x77F)))));
-
-        //ISSUE:COMMENT: External call: FUNC_C05B3C5()
         var6 = var11.call(0x80,0x4,0x80,0x20);
         var6 = (var6 == 0);
         if (var6) 
@@ -719,8 +698,6 @@ label_00001B74:
         var16 = uint160(uint160(sload(0x77E)));
         var17 = (extcodesize(uint160(uint160(sload(0x77E)))) == 0);
         require(extcodesize(uint160(uint160(sload(0x77E)))));
-
-        //ISSUE:COMMENT: External call: FUNC_F26DFDC3()
         var11 = var16.call(0x80,0x4,0x80,0x40);
         var11 = (var11 == 0);
         if (var11) 
@@ -743,8 +720,6 @@ label_00001B74:
         var11 = uint160(uint160(sload(0x77F)));
         var12 = (extcodesize(uint160(uint160(sload(0x77F)))) == 0);
         require(extcodesize(uint160(uint160(sload(0x77F)))));
-
-        //ISSUE:COMMENT: External call: FUNC_C05B3C5()
         var6 = var11.call(0x80,0x4,0x80,0x20);
         var6 = (var6 == 0);
         if (var6) 
@@ -867,8 +842,6 @@ label_000012A6:
         var17 = uint160(sload(0x77E));
         var18 = (extcodesize(uint160(sload(0x77E))) == 0);
         require(extcodesize(uint160(sload(0x77E))));
-
-        //ISSUE:COMMENT: External call: FUNC_25EDBD8D(msg.sender)
         var12 = var17.call(0x220,0x24,0x220,0x20);
         var12 = (var12 == 0);
         if (var12) 
@@ -923,8 +896,6 @@ label_00001B74:
         var11 = uint160(uint160(sload(0x77F)));
         var12 = (extcodesize(uint160(uint160(sload(0x77F)))) == 0);
         require(extcodesize(uint160(uint160(sload(0x77F)))));
-
-        //ISSUE:COMMENT: External call: FUNC_C05B3C5()
         var6 = var11.call(0x80,0x4,0x80,0x20);
         var6 = (var6 == 0);
         if (var6) 
@@ -948,8 +919,6 @@ label_00001B74:
         var11 = uint160(uint160(sload(0x77F)));
         var12 = (extcodesize(uint160(uint160(sload(0x77F)))) == 0);
         require(extcodesize(uint160(uint160(sload(0x77F)))));
-
-        //ISSUE:COMMENT: External call: FUNC_C05B3C5()
         var6 = var11.call(0x80,0x4,0x80,0x20);
         var6 = (var6 == 0);
         if (var6) 
@@ -977,7 +946,6 @@ label_00001B74:
 
     function deposit( address arg0) public return ()
     {
-        // Please refer to main() for the functionality, Function Hash: F340FA01 
     }
 
     function func_000006E4() private return (var0)
@@ -1142,8 +1110,6 @@ label_00000B9D:
                                 if ((sload(0x0) > (block.timestamp - mapping_0x77D[msg.sender].member_0x3))) 
                                 {
                                     mapping_0x77D[msg.sender].member_0x10 = ((mapping_0x77D[msg.sender].member_0x4 * sload(0x3)) / 0xDE0B6B3A7640000);
-
-                                    //ISSUE:WARNING:Block timestamp is referred.
                                     mapping_0x77D[msg.sender].member_0x3 = (block.timestamp + sload(0x0));
                                     mapping_0x77D[msg.sender].member_0x14 = mapping_0x77D[msg.sender].member_0x13;
                                     mapping_0x77D[msg.sender].member_0x8 = mapping_0x77D[msg.sender].member_0x7;
@@ -1166,8 +1132,6 @@ label_00000B9D:
                                     temp63 = (temp62 * var9);
                                     mapping_0x77D[msg.sender].member_0x11 = temp63;
                                     mapping_0x77D[msg.sender].member_0x10 = ((mapping_0x77D[msg.sender].member_0x4 * sload(0x3)) / 0xDE0B6B3A7640000);
-
-                                    //ISSUE:WARNING:Block timestamp is referred.
                                     mapping_0x77D[msg.sender].member_0x3 = (block.timestamp + sload(0x0));
                                     mapping_0x77D[msg.sender].member_0x14 = mapping_0x77D[msg.sender].member_0x13;
                                     mapping_0x77D[msg.sender].member_0x8 = mapping_0x77D[msg.sender].member_0x7;
@@ -1240,8 +1204,6 @@ label_000025C6:
                             mapping_0x77D[msg.sender].member_0x6 = ((var12 * msg.value) / 0xDE0B6B3A7640000);
                             mapping_0x77D[msg.sender].member_0x4 = msg.value;
                             mapping_0x77D[msg.sender].member_0x5 = var12;
-
-                            //ISSUE:WARNING:Block timestamp is referred.
                             mapping_0x77D[msg.sender].member_0x3 = (block.timestamp + sload(0x0));
                             mapping_0x77D[msg.sender].member_0x10 = ((msg.value * sload(0x3)) / 0xDE0B6B3A7640000);
                             if (uint160(var10)) 
@@ -2157,7 +2119,6 @@ label_0000015F:
         {
             var0 = uint32((msg.data(0x0) / 0x100000000000000000000000000000000000000000000000000000000));
 
-            //ISSUE:COMMENT: Function FUNC_011E6BEB()
             if ((uint32((msg.data(0x0) / 0x100000000000000000000000000000000000000000000000000000000)) == 0x11E6BEB)) 
             {
                 require(!msg.value);
@@ -2165,7 +2126,6 @@ label_0000015F:
                 goto label_0000015F;
             }
 
-            //ISSUE:COMMENT: Function FUNC_0D042131()
             else if ((0xD042131 == var0)) 
             {
                 require(!msg.value);
@@ -2175,14 +2135,12 @@ label_0000015F:
                 RETURN(0x80,0x40);
             }
 
-            //ISSUE:COMMENT: Function settle()
             else if ((0x11DA60B4 == var0)) 
             {
                 var0 = func_000006E4();
                 goto label_0000015F;
             }
 
-            //ISSUE:COMMENT: Function FUNC_129295A4()
             else if ((0x129295A4 == var0)) 
             {
                 require(!msg.value);
@@ -2200,7 +2158,6 @@ label_0000015F:
                 goto label_0000015F;
             }
 
-            //ISSUE:COMMENT: Function FUNC_1452958D()
             else if ((0x1452958D == var0)) 
             {
                 require(!msg.value);
@@ -2208,7 +2165,6 @@ label_0000015F:
                 goto label_0000015F;
             }
 
-            //ISSUE:COMMENT: Function FUNC_17BB7D33()
             else if ((0x17BB7D33 == var0)) 
             {
                 require(!msg.value);
@@ -2216,7 +2172,6 @@ label_0000015F:
                 goto label_0000015F;
             }
 
-            //ISSUE:COMMENT: Function FUNC_1D56C957()
             else if ((0x1D56C957 == var0)) 
             {
                 require(!msg.value);
@@ -2246,7 +2201,6 @@ label_00000322:
                 }
             }
 
-            //ISSUE:COMMENT: Function index()
             else if ((0x2986C0E5 == var0)) 
             {
                 require(!msg.value);
@@ -2283,7 +2237,6 @@ label_0000037C:
                 goto label_0000015F;
             }
 
-            //ISSUE:COMMENT: Function FUNC_378E9BD2()
             else if ((0x378E9BD2 == var0)) 
             {
                 require(!msg.value);
@@ -2291,7 +2244,6 @@ label_0000037C:
                 goto label_0000015F;
             }
 
-            //ISSUE:COMMENT: Function FUNC_409C637A()
             else if ((0x409C637A == var0)) 
             {
                 require(!msg.value);
@@ -2303,7 +2255,6 @@ label_0000037C:
                 goto label_0000015F;
             }
 
-            //ISSUE:COMMENT: Function FUNC_6269EFBA()
             else if ((0x6269EFBA == var0)) 
             {
                 require(!msg.value);
@@ -2311,7 +2262,6 @@ label_0000037C:
                 goto label_0000015F;
             }
 
-            //ISSUE:COMMENT: Function FUNC_6351C2B4()
             else if ((0x6351C2B4 == var0)) 
             {
                 require(!msg.value);
@@ -2327,7 +2277,6 @@ label_0000037C:
                 goto label_00000322;
             }
 
-            //ISSUE:COMMENT: Function FUNC_6421E7FC()
             else if ((0x6421E7FC == var0)) 
             {
                 require(!msg.value);
@@ -2335,7 +2284,6 @@ label_0000037C:
                 goto label_0000015F;
             }
 
-            //ISSUE:COMMENT: Function FUNC_65F956A8()
             else if ((0x65F956A8 == var0)) 
             {
                 require(!msg.value);
@@ -2343,7 +2291,6 @@ label_0000037C:
                 goto label_0000015F;
             }
 
-            //ISSUE:COMMENT: Function profit()
             else if ((0x66D16CC3 == var0)) 
             {
                 require(!msg.value);
@@ -2372,7 +2319,6 @@ label_0000051F:
                 }
             }
 
-            //ISSUE:COMMENT: Function FUNC_7325BE06()
             else if ((0x7325BE06 == var0)) 
             {
                 require(!msg.value);
@@ -2380,7 +2326,6 @@ label_0000051F:
                 goto label_0000015F;
             }
 
-            //ISSUE:COMMENT: Function destroy()
             else if ((0x83197EF0 == var0)) 
             {
                 require(!msg.value);
@@ -2388,7 +2333,6 @@ label_0000051F:
                 var10 = uint160(uint160(sload(0x77F)));
                 require(extcodesize(uint160(uint160(sload(0x77F)))));
 
-                //ISSUE:COMMENT: External call: FUNC_C05B3C5()
                 var5 = var10.call(0x80,0x4,0x80,0x20);
                 var5 = (var5 == 0);
                 if (var5) 
@@ -2416,15 +2360,9 @@ label_0000051F:
                         revert(0x0,returndatasize);
                     }
                     else
-                    {
-
-                        //ISSUE:WARNING: SELFDESTRUCT is used to for the destruction
-                        selfdestruct(uint160(sload(0x7)));
-                    }
-                }
+                          
             }
 
-            //ISSUE:COMMENT: Function FUNC_8BA89142()
             else if ((0x8BA89142 == var0)) 
             {
                 require(!msg.value);
@@ -2438,7 +2376,6 @@ label_0000059F:
                 RETURN(0x80,0x80);
             }
 
-            //ISSUE:COMMENT: Function FUNC_95E272BD()
             else if ((0x95E272BD == var0)) 
             {
                 require(!msg.value);
@@ -2447,7 +2384,6 @@ label_0000059F:
                 goto label_0000059F;
             }
 
-            //ISSUE:COMMENT: Function FUNC_AF243CD4()
             else if ((0xAF243CD4 == var0)) 
             {
                 require(!msg.value);
@@ -2455,7 +2391,6 @@ label_0000059F:
                 goto label_0000015F;
             }
 
-            //ISSUE:COMMENT: Function FUNC_B9613E4A()
             else if ((0xB9613E4A == var0)) 
             {
                 require(!msg.value);
@@ -2471,7 +2406,6 @@ label_0000059F:
                 goto label_00000322;
             }
 
-            //ISSUE:COMMENT: Function FUNC_C7DAB057()
             else if ((0xC7DAB057 == var0)) 
             {
                 require(!msg.value);
@@ -2487,7 +2421,6 @@ label_0000059F:
                 goto label_0000051F;
             }
 
-            //ISSUE:COMMENT: Function FUNC_CC066DF3()
             else if ((0xCC066DF3 == var0)) 
             {
                 require(!msg.value);
@@ -2498,7 +2431,6 @@ label_0000059F:
                 RETURN(0x80,0x60);
             }
 
-            //ISSUE:COMMENT: Function FUNC_E272379E()
             else if ((0xE272379E == var0)) 
             {
                 require(!msg.value);
@@ -2506,7 +2438,6 @@ label_0000059F:
                 goto label_0000015F;
             }
 
-            //ISSUE:COMMENT: Function FUNC_E854BCF2()
             else if ((0xE854BCF2 == var0)) 
             {
                 require(!msg.value);
@@ -2514,7 +2445,6 @@ label_0000059F:
                 goto label_0000015F;
             }
 
-            //ISSUE:COMMENT: Function deposit()
             else if ((0xF340FA01 == var0)) 
             {
                 var0 = func_000024AD(uint160(msg.data(0x4)));
