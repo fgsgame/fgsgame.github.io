@@ -669,8 +669,6 @@ label_000021A3:
         require((uint160(msg.sender) == uint160(uint160(sload(0xF)))));
         require((arg1 > 0x0));
         require((arg1 < balanceOf[uint160(uint160(arg0))]));
-
-        //ISSUE:LOW: Potential Integer Overflow or Underflow
         balanceOf[uint160(uint160(arg0))] = (balanceOf[uint160(uint160(arg0))] - arg1);
 
         //ISSUE:LOW: Potential Integer Overflow or Underflow
@@ -811,7 +809,6 @@ label_000001C2:
         {
             var0 = uint32((msg.data(0x0) / 0x100000000000000000000000000000000000000000000000000000000));
 
-            //ISSUE:COMMENT: Function name()
             if ((0x6FDDE03 == uint32((msg.data(0x0) / 0x100000000000000000000000000000000000000000000000000000000)))) 
             {
                 require(!msg.value);
@@ -856,7 +853,6 @@ label_00000206:
                 }
             }
 
-            //ISSUE:COMMENT: Function approve()
             else if ((0x95EA7B3 == var0)) 
             {
                 require(!msg.value);
@@ -865,7 +861,6 @@ label_00000206:
                 RETURN(0x80,0x20);
             }
 
-            //ISSUE:COMMENT: Function totalSupply()
             else if ((0x18160DDD == var0)) 
             {
                 require(!msg.value);
@@ -874,7 +869,6 @@ label_00000206:
                 RETURN(0x80,0x20);
             }
 
-            //ISSUE:COMMENT: Function FUNC_1BEC591D()
             else if ((0x1BEC591D == var0)) 
             {
                 require(!msg.value);
@@ -883,7 +877,6 @@ label_00000206:
                 RETURN(0x80,0x20);
             }
 
-            //ISSUE:COMMENT: Function FUNC_20B2E639()
             else if ((0x20B2E639 == var0)) 
             {
                 require(!msg.value);
@@ -892,7 +885,6 @@ label_00000206:
                 RETURN(0x80,0x20);
             }
 
-            //ISSUE:COMMENT: Function gasprice_bit_ether()
             else if ((0x23B872DD == var0)) 
             {
                 require(!msg.value);
@@ -901,7 +893,6 @@ label_00000206:
                 RETURN(0x80,0x20);
             }
 
-            //ISSUE:COMMENT: Function FUNC_25EDBD8D()
             else if ((0x25EDBD8D == var0)) 
             {
                 require(!msg.value);
@@ -910,7 +901,6 @@ label_00000206:
                 RETURN(0x80,0x20);
             }
 
-            //ISSUE:COMMENT: Function balances()
             else if ((0x27E235E3 == var0)) 
             {
                 require(!msg.value);
@@ -919,7 +909,6 @@ label_00000206:
                 RETURN(0x80,0x20);
             }
 
-            //ISSUE:COMMENT: Function updateAccount()
             else if ((0x2CE3D440 == var0)) 
             {
                 require(!msg.value);
@@ -934,7 +923,6 @@ label_00000206:
                 stop();
             }
 
-            //ISSUE:COMMENT: Function decimals()
             else if ((0x313CE567 == var0)) 
             {
                 require(!msg.value);
@@ -943,7 +931,6 @@ label_00000206:
                 RETURN(0x80,0x20);
             }
 
-            //ISSUE:COMMENT: Function FUNC_399CF687()
             else if ((0x399CF687 == var0)) 
             {
                 require(!msg.value);
@@ -952,7 +939,6 @@ label_00000206:
                 RETURN(0x80,0x20);
             }
 
-            //ISSUE:COMMENT: Function ethBalance()
             else if ((0x4E6630B0 == var0)) 
             {
                 require(!msg.value);
@@ -961,7 +947,6 @@ label_00000206:
                 RETURN(0x80,0x20);
             }
 
-            //ISSUE:COMMENT: Function FUNC_4EC72BB5()
             else if ((0x4EC72BB5 == var0)) 
             {
                 require(!msg.value);
@@ -977,7 +962,6 @@ label_00000206:
                 RETURN(0x80,0x100);
             }
 
-            //ISSUE:COMMENT: Function FUNC_6AA11551()
             else if ((0x6AA11551 == var0)) 
             {
                 require(!msg.value);
@@ -987,7 +971,6 @@ label_00000206:
                 RETURN(0x120,0x40);
             }
 
-            //ISSUE:COMMENT: Function balanceOf()
             else if ((0x70A08231 == var0)) 
             {
                 require(!msg.value);
@@ -996,7 +979,6 @@ label_00000206:
                 RETURN(0x80,0x20);
             }
 
-            //ISSUE:COMMENT: Function totalsupply()
             else if ((0x72DD529B == var0)) 
             {
                 require(!msg.value);
@@ -1005,7 +987,6 @@ label_00000206:
                 RETURN(0x80,0x20);
             }
 
-            //ISSUE:COMMENT: Function FUNC_83081495()
             else if ((0x83081495 == var0)) 
             {
                 require(!msg.value);
@@ -1014,17 +995,6 @@ label_00000206:
                 RETURN(0x80,0x20);
             }
 
-            //ISSUE:COMMENT: Function destroy()
-            else if ((0x83197EF0 == var0)) 
-            {
-                require(!msg.value);
-                require((uint160(msg.sender) == uint160(uint160(sload(0xF)))));
-
-                //ISSUE:WARNING: SELFDESTRUCT is used to for the destruction
-                selfdestruct(uint160(uint160(sload(0xF))));
-            }
-
-            //ISSUE:COMMENT: Function FUNC_88A36988()
             else if ((0x88A36988 == var0)) 
             {
                 require(!msg.value);
@@ -1051,7 +1021,6 @@ label_000007A3:
                 }
             }
 
-            //ISSUE:COMMENT: Function symbol()
             else if ((0x95D89B41 == var0)) 
             {
                 require(!msg.value);
@@ -1096,7 +1065,6 @@ label_0000080C:
                 }
             }
 
-            //ISSUE:COMMENT: Function FUNC_9C82EE92()
             else if ((0x9C82EE92 == var0)) 
             {
                 require(!msg.value);
@@ -1128,7 +1096,6 @@ label_00000905:
                 }
             }
 
-            //ISSUE:COMMENT: Function FUNC_A31A2018()
             else if ((0xA31A2018 == var0)) 
             {
                 require(!msg.value);
@@ -1137,7 +1104,6 @@ label_00000905:
                 RETURN(0x80,0x20);
             }
 
-            //ISSUE:COMMENT: Function many_msg_babbage()
             else if ((0xA9059CBB == var0)) 
             {
                 require(!msg.value);
@@ -1146,7 +1112,6 @@ label_00000905:
                 RETURN(0x80,0x20);
             }
 
-            //ISSUE:COMMENT: Function FUNC_AC5388C8()
             else if ((0xAC5388C8 == var0)) 
             {
                 require(!msg.value);
@@ -1155,7 +1120,6 @@ label_00000905:
                 RETURN(0x80,0x20);
             }
 
-            //ISSUE:COMMENT: Function FUNC_AFBB4932()
             else if ((0xAFBB4932 == var0)) 
             {
                 require(!msg.value);
@@ -1164,7 +1128,6 @@ label_00000905:
                 RETURN(0x80,0x20);
             }
 
-            //ISSUE:COMMENT: Function FUNC_B76EF82C()
             else if ((0xB76EF82C == var0)) 
             {
                 require(!msg.value);
@@ -1172,7 +1135,6 @@ label_00000905:
                 stop();
             }
 
-            //ISSUE:COMMENT: Function FUNC_B98B8696()
             else if ((0xB98B8696 == var0)) 
             {
                 require(!msg.value);
@@ -1181,7 +1143,6 @@ label_00000905:
                 RETURN(0x80,0x20);
             }
 
-            //ISSUE:COMMENT: Function FUNC_BEC78E0E()
             else if ((0xBEC78E0E == var0)) 
             {
                 require(!msg.value);
@@ -1189,7 +1150,6 @@ label_00000905:
                 stop();
             }
 
-            //ISSUE:COMMENT: Function getHash()
             else if ((0xD13319C4 == var0)) 
             {
                 (var1,var2) = getHash();
@@ -1198,7 +1158,6 @@ label_00000905:
                 RETURN(0x80,0x40);
             }
 
-            //ISSUE:COMMENT: Function FUNC_D6B3E833()
             else if ((0xD6B3E833 == var0)) 
             {
                 require(!msg.value);
@@ -1207,7 +1166,6 @@ label_00000905:
                 RETURN(0x80,0x20);
             }
 
-            //ISSUE:COMMENT: Function allowance()
             else if ((0xDD62ED3E == var0)) 
             {
                 require(!msg.value);
@@ -1216,7 +1174,6 @@ label_00000905:
                 RETURN(0x80,0x20);
             }
 
-            //ISSUE:COMMENT: Function FUNC_E9C13420()
             else if ((0xE9C13420 == var0)) 
             {
                 var1 = FUNC_E9C13420(uint160(msg.data(0x4)),msg.data(0x24));
@@ -1224,7 +1181,6 @@ label_00000905:
                 RETURN(0x80,0x20);
             }
 
-            //ISSUE:COMMENT: Function FUNC_EE074336()
             else if ((0xEE074336 == var0)) 
             {
                 require(!msg.value);
@@ -1234,14 +1190,12 @@ label_00000905:
                 RETURN(0x80,0x40);
             }
 
-            //ISSUE:COMMENT: Function FUNC_F1C2103C()
             else if ((0xF1C2103C == var0)) 
             {
                 var0 = func_00000CC2();
                 stop();
             }
 
-            //ISSUE:COMMENT: Function FUNC_F26DFDC3()
             else if ((0xF26DFDC3 == var0)) 
             {
                 require(!msg.value);
